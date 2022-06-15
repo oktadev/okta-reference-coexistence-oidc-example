@@ -1,0 +1,10 @@
+oauthClient:
+  redirectUris:
+    - http://localhost:8080/login/oauth2/code/okta
+  applicationType: web
+
+directions: |+2
+  Okta configuration written to .env
+  Add this file to .gitignore!
+  Run these application with:
+      docker compose up
